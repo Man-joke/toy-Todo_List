@@ -1,3 +1,10 @@
+.left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 5rem 0;
+}
 .nickName{
     text-align: left;
     h2{
@@ -11,24 +18,12 @@
         font-weight: bold;
     }
 }
-.timeset{
-    margin-top: 6rem;
-}
 .date-wrap{
     text-align: left;
     > div{ 
-        font-size: 26px;
-        line-height: 38px;
+        font-size: 2vw;
+        line-height: 3.8rem;
         font-weight: bold;
-    }
-    .year{
-        
-    }
-    .month{
-
-    }
-    .day{
-
     }
 }
 
@@ -38,15 +33,14 @@
         width: 7.5rem;
         height: 7.5rem;
         background: #fff;
-        font-size: 30px;
+        font-size: 3rem;
         line-height: 7.5rem;
         text-align: center;
         border: 1px solid #f2f2f2;
         border-radius: 0.6rem;
-        box-shadow: 3px 3px 4px rgba(0,0,0,0.25);
+        box-shadow: 0.3rem 0.3rem 0.4rem rgba(0,0,0,0.25);
     }
     .semicolon{
-        font-size: 4.5rem;
-        
+        font-size: 4.5rem;       
     }
 }

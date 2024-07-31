@@ -3,7 +3,7 @@
   padding: 0;
 }
 html {
-  font-size: 10px;
+  font-size: 62.5%;
 }
 body {
   font-size: 1rem;
@@ -57,8 +57,10 @@ li {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  height: 850px;
-
+  height: 100vh;
+.row{
+  justify-content: space-between;
+}
   .left,
   .right {
     height: 100%;

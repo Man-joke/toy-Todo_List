@@ -6,18 +6,20 @@ import FamousApi from "./FamousApi";
 
 const Left = () => {
   return (
-    <>
-      <div className="nickName mt-5">
-        <h2>HELLO</h2>
-        <p>MANJOCK</p>
+    <section className="left-section">
+      <div className="info">
+        <div className="nickName">
+          <h2>HELLO</h2>
+          <p>MANJOCK</p>
+        </div>
+        <div className="timeset">
+          <TimeSet />
+        </div>
       </div>
-      <div className="timeset">
-        <TimeSet />
-      </div>
-      <div className="famouse" style={{ marginTop: "120px" }}>
+      <div className="famouse" >
         <FamousApi />
       </div>
-    </>
+    </section>
   );
 };
 

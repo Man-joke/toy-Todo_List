@@ -8,7 +8,7 @@ import Right from './components/Right';
 function App() {
   return (
     <Container className='contnents'>
-      <Row style={{height: "100%"}}>
+      <Row>
         <Col md={3} className='left'>
           <Left />
         </Col>
