@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, CardBody, CardTitle } from "react-bootstrap";
 
-import "../css/FamousApi.scss";
+import "../scss/FamousApi.scss";
 
 const FamousApi = () => {
   return (
