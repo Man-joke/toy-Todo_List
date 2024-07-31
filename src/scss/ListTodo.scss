@@ -1,56 +1,54 @@
 .list-box {
-  margin-top: 70px;
-  //   기본
+  margin-top: 7rem;
   .item {
     ul {
-      // height: 58rem;
       overflow-y: scroll;
-      padding: 0 20px 0 0;
+      padding: 0 2rem 0 0;
       &::-webkit-scrollbar {
         background-color: #eaf6f3;
       }
       &::-webkit-scrollbar-thumb {
         background-color: #ccc;
-        border-radius: 10px;
+        border-radius: 1rem;
         border: 2px solid #eaf6f3;
       }
       &::-webkit-scrollbar-track {
         background-color: #eaf6f3;
       }
       li {
-        padding: 17px 20px 0;
+        padding: 1.7rem 2rem 0;
         background: #fff;
-        border-radius: 7px;
+        border-radius: 0.7rem;
         box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
-        margin-bottom: 24px;
+        margin-bottom: 2.4rem;
         .round {
           display: inline-block;
-          width: 12px;
-          height: 12px;
+          width: 1.2rem;
+          height: 1.2rem;
           background-color: #12a973;
           border-radius: 100%;
         }
         .top {
-          padding-bottom: 17px;
+          padding-bottom: 1.7rem;
           .title {
-            width: 212px;
-            font-size: 18px;
+            width: 21.2rem;
+            font-size: 1.8rem;
             font-weight: bold;
             overflow: hidden;
             text-overflow: ellipsis;
             text-wrap: nowrap;
           }
           .date {
-            font-size: 14px;
+            font-size: 1.4rem;
             color: #666;
           }
           .editInput {
             position: relative;
-            left: 20px;
+            left: 2rem;
             outline: 0;
             width: 100%;
-            height: 27px;
-            font-size: 18px;
+            height: 2.7rem;
+            font-size: 1.8rem;
             border: unset;
             border-bottom: 1px solid #000;
             box-shadow: unset;
@@ -63,17 +61,17 @@
           transform: scaleY(0);
           transition: all 0.3s;
           .box {
-            width: 138px;
+            width: 13.8rem;
             height: 0;
             > div {
               display: flex;
               justify-content: center;
               align-items: center;
-              width: 36px;
-              height: 34px;
+              width: 3.6rem;
+              height: 3.4rem;
               background: #fff;
               border: 1px solid #e2e2e2;
-              border-radius: 7px;
+              border-radius: 0.7rem;
               box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
               transform: scaleY(0);
               &:hover {
@@ -91,8 +89,8 @@
           }
           .bottom {
             display: flex;
-            margin-top: 16px;
-            padding-bottom: 17px;
+            margin-top: 1.6rem;
+            padding-bottom: 1.7rem;
             height: fit-content;
             transform: scaleY(1);
             transition: all 0.3s;
