@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from "react";
 
-import "../css/Right.scss";
+import "../scss/Right.scss";
 import ListTodo from "./ListTodo";
 import ListInsert from "./ListInsert";
 

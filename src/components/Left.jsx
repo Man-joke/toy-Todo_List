@@ -1,7 +1,7 @@
 import React from "react";
 import TimeSet from "./TimeSet";
 
-import "../css/left.scss";
+import "../scss/left.scss";
 import FamousApi from "./FamousApi";
 
 const Left = () => {

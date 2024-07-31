@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import "../css/ListTodo.scss";
+import "../scss/ListTodo.scss";
 import { Row, Col } from "react-bootstrap";
 
 const ListTodo = ({ todos, onRemove, onCheckToggle, onChangeSelectedTodo }) => {
