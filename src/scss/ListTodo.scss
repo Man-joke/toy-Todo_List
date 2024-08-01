@@ -2,8 +2,9 @@
   margin-top: 7rem;
   .item {
     ul {
-      overflow-y: scroll;
       padding: 0 2rem 0 0;
+      height: calc(100vh - 38rem);
+      overflow-y: scroll;
       &::-webkit-scrollbar {
         background-color: #eaf6f3;
       }
